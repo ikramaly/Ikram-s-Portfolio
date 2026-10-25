@@ -61,12 +61,9 @@ function Contact() {
     >
       <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">
         <div className="mx-auto mb-12 max-w-2xl text-center">
-          <p className="text-xs font-semibold tracking-[.2em] text-violet-300">
+          <p className="text-2xl font-semibold tracking-[.2em] text-violet-300">
             LET’S CONNECT
           </p>
-          <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            Let&apos;s Talk About Your Next Project
-          </h2>
           <p className="mt-4 text-sm leading-7 text-zinc-400 sm:text-base">
             I’m open to Java Full Stack Developer opportunities, collaboration,
             and interesting projects.
