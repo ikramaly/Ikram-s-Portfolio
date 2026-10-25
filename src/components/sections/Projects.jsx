@@ -59,11 +59,11 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="border-y border-white/10 bg-white/[0.02]">
+    <section id="projects" data-scroll-reveal className="border-y border-white/10 bg-white/[0.02]">
       <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">
         <div className="mb-10 text-center md:mb-12">
           <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl mt-[-40px]">
-            Projects I’ve worked on
+            Projects I’ve Worked On
           </h2>
         </div>
 

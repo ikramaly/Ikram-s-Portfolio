@@ -59,14 +59,14 @@ const skillCategories = [
 
 function Skills() {
   return (
-    <section id="skills" className="bg-[#09090b]">
+    <section id="skills" data-scroll-reveal className="bg-[#09090b]">
       <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">
         <div className="mb-10 md:mb-12">
-          <p className="text-xs font-semibold tracking-[.2em] text-violet-300">
+          <p className="text-2xl font-semibold tracking-[.01em] text-violet-300">
             WHAT I WORK WITH
           </p>
           <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            Skills &amp; technologies
+            Skills &amp; Technologies
           </h2>
         </div>
 

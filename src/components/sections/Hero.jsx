@@ -57,7 +57,7 @@ function Hero() {
       <div aria-hidden="true" className="pointer-events-none absolute -right-32 top-12 h-[34rem] w-[34rem] rounded-full bg-purple-700/15 blur-3xl" />
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-5 py-16 sm:py-20 md:gap-10 md:py-24 lg:grid-cols-[1.15fr_.85fr] lg:gap-14 lg:py-20">
-        <div className="min-w-0">
+        <div className="order-2 min-w-0 lg:order-1">
           <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.025] px-4 py-2 text-sm font-medium text-zinc-200">
             <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.7)]" />
             Available for Opportunities
@@ -101,15 +101,15 @@ function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md px-3 pb-8 sm:px-5 lg:my-4">
-          <div aria-hidden="true" className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-violet-400 via-purple-600 to-violet-900 opacity-80 blur-[1px]" />
-          <div aria-hidden="true" className="absolute -inset-4 rounded-[2.2rem] border border-violet-400/20 bg-violet-500/[0.035] rotate-[-3deg]" />
-          <div className="relative overflow-hidden rounded-[1.8rem] border border-violet-300/50 bg-zinc-900 shadow-[0_0_55px_rgba(124,58,237,0.22)]">
-            <img src="/assets/profile/Ikram_Profile_Img.png" alt="Ikram Ali" className="aspect-[4/4.7] w-full object-cover object-top" />
+        <div className="relative order-1 mx-auto w-full max-w-64 px-3 pb-8 sm:max-w-72 md:max-w-80 lg:order-2 lg:my-4 lg:max-w-md sm:px-5">
+          <div aria-hidden="true" className="absolute -inset-1 rounded-full bg-gradient-to-br from-violet-400 via-purple-600 to-violet-900 opacity-80 blur-[1px] lg:rounded-[2rem]" />
+          <div aria-hidden="true" className="absolute -inset-4 rounded-full border border-violet-400/20 bg-violet-500/[0.035] rotate-[-3deg] lg:rounded-[2.2rem]" />
+          <div className="relative overflow-hidden rounded-full border border-violet-300/50 bg-zinc-900 shadow-[0_0_55px_rgba(124,58,237,0.22)] lg:rounded-[1.8rem]">
+            <img src="/assets/profile/Ikram_Profile_Img.png" alt="Ikram Ali" className="aspect-square w-full object-cover object-top lg:aspect-[4/4.7]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/70 via-transparent to-transparent" />
           </div>
 
-          <div className="absolute -left-1 top-10 flex items-center gap-3 rounded-xl border border-violet-300/20 bg-[#111019]/95 px-3 py-3 shadow-xl shadow-black/30 backdrop-blur sm:-left-2 sm:px-4">
+          <div className="absolute -left-1 top-10 hidden items-center gap-3 rounded-xl border border-violet-300/20 bg-[#111019]/95 px-3 py-3 shadow-xl shadow-black/30 backdrop-blur sm:-left-2 sm:px-4 lg:flex">
             <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-violet-400/15 text-lg text-violet-200"><FiCode aria-hidden="true" /></span>
             <span className="text-xs font-medium leading-5 text-zinc-200 sm:text-sm">Clean code<br /><span className="text-zinc-500">Better solutions</span></span>
           </div>

@@ -19,11 +19,11 @@ const aboutCards = [
 
 function About() {
   return (
-    <section id="about" className="border-y border-white/10 bg-white/[0.02]">
+    <section id="about" data-scroll-reveal className="border-y border-white/10 bg-white/[0.02]">
       <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
           <div>
-            <p className="text-xs font-semibold tracking-[.2em] text-violet-300">
+            <p className="text-2xl font-semibold tracking-[.01em] text-violet-300">
               A LITTLE ABOUT ME
             </p>
             <p className="mt-6 max-w-xl text-base leading-7 text-zinc-400">

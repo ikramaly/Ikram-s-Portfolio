@@ -57,6 +57,7 @@ function Contact() {
   return (
     <section
       id="contact"
+      data-scroll-reveal
       className="border-t border-white/10 bg-gradient-to-b from-violet-500/[0.06] to-transparent"
     >
       <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">

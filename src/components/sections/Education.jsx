@@ -27,17 +27,14 @@ const education = [
       'Developed a foundation in school-level subjects and essential learning skills.',
     duration: '2020',
     result: 'Percentage: 84%',
-    image: '/assets/education/high_school.jpeg',
+    image: '/assets/education/high_school.avif',
   },
 ]
 
 function Education() {
   return (
-    <section id="education" className="mx-auto max-w-6xl px-5 py-20 md:py-24">
-      <div className="mb-10">
-        <p className="text-xs font-semibold tracking-[.2em] text-violet-300">
-          MY EDUCATION
-        </p>
+    <section id="education" data-scroll-reveal className="mx-auto max-w-6xl px-5 py-20 md:py-24">
+      <div className="mb-10 text-center mt-[-30px]">
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           Education &amp; Academic Background
         </h2>
